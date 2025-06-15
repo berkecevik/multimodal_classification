@@ -7,21 +7,17 @@ This ROS 2 project applies classical machine learning classification algorithms 
 ```
 multimodal_classification_ros2/
 ├── fruit_classifier/                # ROS 2 Python package
-│   ├── fruit_classifier/
-│   │   ├── fruit_node.py            # Logistic Regression on Fruit Dataset
-│   │   ├── iris_node.py             # KNN, Decision Tree, Random Forest on Iris Dataset
-│   │   ├── svm_node.py              # Linear SVM for Cancer and Penguin Datasets
-│   │   ├── fruit_processed.csv
-│   │   ├── iris_processed.csv
-│   │   ├── cancer_processed.csv
-│   │   └── penguin_processed.csv
-│   ├── package.xml
-│   └── setup.py
-├── plots/
-    ├── fruit_plot.png
-    ├── iris_plot.png
-    ├── breast_cancer_plot.png
-    └── penguin_plot.png
+    ├── fruit_classifier/
+    │   ├── fruit_node.py            # Logistic Regression on Fruit Dataset
+    │   ├── iris_node.py             # KNN, Decision Tree, Random Forest on Iris Dataset
+    │   ├── svm_node.py              # Linear SVM for Cancer and Penguin Datasets
+    │   ├── fruit_processed.csv
+    │   ├── iris_processed.csv
+    │   ├── cancer_processed.csv
+    │   └── penguin_processed.csv
+    ├── package.xml
+    └── setup.py
+
 ```
 
 ## Classification Tasks and Models
